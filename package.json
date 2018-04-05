@@ -1,0 +1,14 @@
+{
+  "name": "sds (sales data scraper)",
+  "version": "1.0.0",
+  "description": "A simple web scraper for gleaning and enriching company information as part of our sales efforts.",
+  "author": "jgunson",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "csv-stringify": "^2.1.0",
+    "dotenv": "^5.0.1",
+    "json2csv": "^3.11.5",
+    "osmosis": "^1.1.6"
+  }
+}
