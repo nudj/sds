@@ -1,5 +1,5 @@
 {
-  "name": "sds (sales data scraper)",
+  "name": "sds",
   "version": "1.0.0",
   "description": "A simple web scraper for gleaning and enriching company information as part of our sales efforts.",
   "author": "jgunson",
@@ -10,5 +10,14 @@
     "dotenv": "^5.0.1",
     "json2csv": "^3.11.5",
     "osmosis": "^1.1.6"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nudj/sds.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nudj/sds/issues"
+  },
+  "homepage": "https://github.com/nudj/sds#readme"
 }
