@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/nudj/sds/issues"
   },
-  "homepage": "https://github.com/nudj/sds#readme"
+  "homepage": "https://github.com/nudj/sds#readme",
+  "scripts": {
+    "orchestrate": "node ./lib/orchestrate.js"
+  }
 }
