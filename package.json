@@ -9,7 +9,7 @@
     "command-line-args": "^5.0.2",
     "csv-stringify": "^2.1.0",
     "dotenv": "^5.0.1",
-    "json2csv": "^3.11.5",
+    "json2csv": "^4.1.5",
     "lodash": "^4.17.10",
     "lodash.uniqby": "^4.7.0",
     "osmosis": "^1.1.6",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/nudj/sds#readme",
   "scripts": {
-    "orchestrate": "node ./lib/orchestrate.js"
+    "orchestrate": "node ./lib/orchestrate.js",
+    "create-contacts": "node ./lib/create-contacts-csv.js"
   }
 }
