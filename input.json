@@ -3,7 +3,20 @@
     "name": "nudj",
     "emails": [
       {
-        "email": "nick@nudj.co"
+        "value": "nick@nudj.co",
+        "first_name": "Nick"
+      },
+      {
+        "value": "rdjpalmer@icloud.com"
+      }
+    ]
+  },
+  {
+    "name": "nudj2",
+    "emails": [
+      {
+        "value": "rich@nudj.co",
+        "first_name": "Rich"
       }
     ]
   }
