@@ -4,19 +4,8 @@
     "emails": [
       {
         "value": "nick@nudj.co",
-        "first_name": "Nick"
-      },
-      {
-        "value": "rdjpalmer@icloud.com"
-      }
-    ]
-  },
-  {
-    "name": "nudj2",
-    "emails": [
-      {
-        "value": "rich@nudj.co",
-        "first_name": "Rich"
+        "first_name": "Nick",
+        "type": "personal"
       }
     ]
   }
