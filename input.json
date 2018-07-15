@@ -6,6 +6,21 @@
         "value": "nick@nudj.co",
         "first_name": "Nick",
         "type": "personal"
+      },
+      {
+        "value": "nick+1@nudj.co",
+        "first_name": "Nick+1",
+        "type": "personal"
+      }
+    ]
+  },
+  {
+    "name": "nudj+1",
+    "emails": [
+      {
+        "value": "nick+2@nudj.co",
+        "first_name": "Nick+2",
+        "type": "personal"
       }
     ]
   }
