@@ -26,6 +26,8 @@
   "homepage": "https://github.com/nudj/sds#readme",
   "scripts": {
     "orchestrate": "node ./lib/orchestrate.js",
-    "create-contacts": "node ./lib/create-contacts-csv.js"
+    "create-contacts": "node ./lib/create-contacts-csv.js",
+    "get-sample": "node ./lib/random-sample.js",
+    "update-email-status": "node ./lib/add-email-sent.js"
   }
 }
