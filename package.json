@@ -8,10 +8,12 @@
     "axios": "^0.17.1",
     "command-line-args": "^5.0.2",
     "csv-stringify": "^2.1.0",
+    "date-fns": "^1.29.0",
     "dotenv": "^5.0.1",
     "json2csv": "^4.1.5",
     "lodash": "^4.17.10",
     "lodash.uniqby": "^4.7.0",
+    "mailgun.js": "^2.0.1",
     "osmosis": "^1.1.6",
     "promise-serial": "^0.1.5"
   },
@@ -28,6 +30,7 @@
     "orchestrate": "node ./lib/orchestrate.js",
     "create-contacts": "node ./lib/create-contacts-csv.js",
     "get-sample": "node ./lib/random-sample.js",
-    "update-email-status": "node ./lib/add-email-sent.js"
+    "update-email-status": "node ./lib/add-email-sent.js",
+    "fetch-mailgun-logs": "node ./lib/fetch-mailgun-logs.js"
   }
 }
