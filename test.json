@@ -20,14 +20,31 @@
         "linkedin": null,
         "twitter": null,
         "phone_number": "+1 646 412 6514",
-        "journey": [
+        "messages": [
           {
-            "stage": 1,
+            "engagement": "new",
             "mailgunId": "20180715141337.1.99922D53CAA2B5C0@mail.nudj.co",
             "events": [
               {
+                "messageId": "20180715141337.1.99922D53CAA2B5C0@mail.nudj.co",
                 "id": "gr0xoJZlTkmIOqgSvAc6hA",
                 "event": "opened",
+                "timestamp": 1531956839.983924,
+                "meta": {
+                  "clientInfo": {
+                    "client-type": "browser",
+                    "device-type": "desktop",
+                    "client-name": "Chrome",
+                    "user-agent":
+                      "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36",
+                    "client-os": "Windows"
+                  }
+                }
+              },
+              {
+                "messageId": "20180715141337.1.99922D53CAA2B5C0@mail.nudj.co",
+                "id": "tim",
+                "event": "clicked",
                 "timestamp": 1531956839.983924,
                 "meta": {
                   "clientInfo": {
