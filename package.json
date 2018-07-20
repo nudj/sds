@@ -32,6 +32,7 @@
     "create-contacts": "node ./lib/create-contacts-csv.js",
     "get-sample": "node ./lib/random-sample.js",
     "update-email-status": "node ./lib/add-email-sent.js",
-    "fetch-mailgun-logs": "node ./lib/fetch-mailgun-logs.js"
+    "fetch-mailgun-logs": "node ./lib/fetch-mailgun-logs.js",
+    "postman": "node ./lib/postman.js"
   }
 }
