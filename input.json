@@ -1,25 +1,29 @@
 [
   {
     "name": "nudj",
-    "emails": [
+    "industry": "advertising",
+    "sample": "00001-jenesis",
+    "contacts": [
       {
-        "value": "tim@nudj.co",
-        "first_name": "Tim",
+        "email": "nick@nudj.co",
+        "first_name": "Nick",
         "type": "personal"
       },
       {
-        "value": "tim+1@nudj.co",
-        "first_name": "Tim+1",
-        "type": "personal"
+        "email": "nick+1@nudj.co",
+        "first_name": "Nick+1",
+        "type": "generic"
       }
     ]
   },
   {
     "name": "nudj+1",
-    "emails": [
+    "industry": "advertising",
+    "sample": "00001-jenesis",
+    "contacts": [
       {
-        "value": "tim+2@nudj.co",
-        "first_name": "Tim+2",
+        "email": "nick+2@nudj.co",
+        "first_name": "Nick+2",
         "type": "personal"
       }
     ]
