@@ -33,6 +33,7 @@
     "get-sample": "node ./lib/random-sample.js",
     "update-email-status": "node ./lib/add-email-sent.js",
     "fetch-mailgun-logs": "node ./lib/fetch-mailgun-logs.js",
-    "postman": "node ./lib/postman.js"
+    "postman": "node ./lib/postman.js",
+    "migrate-mailgun-logs": "node ./lib/migrate-mailgun-logs.js"
   }
 }
