@@ -33,7 +33,6 @@
     "orchestrate": "node ./lib/orchestrate.js",
     "fetch-mailgun-logs": "node ./lib/fetch-mailgun-logs.js",
     "postman": "node ./lib/postman.js",
-    "arango": "node ./lib/arango-test.js",
-    "arango-import": "node ./lib/arango-import.js"
+    "seed-local-database": "node ./lib/seed-database.js"
   }
 }

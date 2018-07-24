@@ -1,0 +1,152 @@
+[
+  {
+    "name": "MDC Partners",
+    "location": "New York, New York",
+    "industry": "Advertising",
+    "sample": "00001-jenesis",
+    "domain": "mdc-partners.com",
+    "clearbit": true,
+    "hunter": true,
+    "contacts": [
+      {
+        "email": "rich@nudj.co",
+        "type": "personal",
+        "confidence": 99,
+        "first_name": "Rich",
+        "last_name": "Palmer",
+        "position": "Ledge",
+        "seniority": null,
+        "department": null,
+        "linkedin": null,
+        "twitter": null,
+        "phone_number": "+1 646 412 6514",
+        "messages": [
+          {
+            "engagement": "new",
+            "mailgunId": "20180715141337.1.99922D53CAA2B5C0@mail.nudj.co"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Companeh",
+    "location": "New York, Loindon",
+    "industry": "Advertising",
+    "sample": "00001-jenesis",
+    "domain": "compan-partners.tld",
+    "clearbit": true,
+    "hunter": true,
+    "contacts": [
+      {
+        "email": "tim@nudj.co",
+        "type": "personal",
+        "confidence": 99,
+        "first_name": "Tim",
+        "last_name": "Robinson",
+        "position": "Wizard",
+        "seniority": null,
+        "department": null,
+        "linkedin": null,
+        "twitter": null,
+        "phone_number": "+1 646 412 6514",
+        "messages": [
+          {
+            "engagement": "new",
+            "mailgunId": "20180715141337.1.83322F53CBA2B5C0@mail.nudj.co"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Collingo",
+    "location": "Loindon",
+    "industry": "eCommerce",
+    "sample": "00001-jenesis",
+    "domain": "colling.tld",
+    "clearbit": true,
+    "hunter": true,
+    "contacts": [
+      {
+        "email": "nick@nudj.co",
+        "type": "personal",
+        "confidence": 99,
+        "first_name": "Nick",
+        "last_name": "Collings",
+        "position": "CTO",
+        "seniority": null,
+        "department": null,
+        "linkedin": null,
+        "twitter": null,
+        "phone_number": "+1 646 412 6514",
+        "messages": [
+          {
+            "engagement": "new",
+            "mailgunId": "20180715141337.6.QA2B5D53CAC0@mail.nudj.co"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "NudjyWuddy",
+    "location": "London",
+    "industry": "Media and Content",
+    "sample": "00001-jenesis",
+    "domain": "nudjy.tld",
+    "clearbit": true,
+    "hunter": true,
+    "contacts": [
+      {
+        "email": "robyn@nudj.co",
+        "type": "personal",
+        "confidence": 99,
+        "first_name": "Robyn",
+        "last_name": "McGirl",
+        "position": "CEO",
+        "seniority": null,
+        "department": null,
+        "linkedin": null,
+        "twitter": null,
+        "phone_number": "+1 646 412 6514",
+        "messages": [
+          {
+            "engagement": "new",
+            "mailgunId": "20180715141337.6.9RRB5D53KJC0@mail.nudj.co"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "JimBob Inc.",
+    "location": "Loindon",
+    "industry": "Advertising",
+    "sample": "00001-jenesis",
+    "domain": "jimbobbles.tld",
+    "clearbit": true,
+    "hunter": true,
+    "contacts": [
+      {
+        "email": "jim@nudj.co",
+        "type": "personal",
+        "confidence": 99,
+        "first_name": "Jim",
+        "last_name": "Hynes",
+        "position": "Sales Pro",
+        "seniority": null,
+        "department": null,
+        "linkedin": null,
+        "twitter": null,
+        "phone_number": "+1 646 412 6514",
+        "messages": [
+          {
+            "engagement": "new",
+            "mailgunId": "20180715141337.6.WA266653CAC0@mail.nudj.co"
+          }
+        ]
+      }
+    ]
+  }
+]
