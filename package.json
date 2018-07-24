@@ -13,6 +13,7 @@
     "dedent": "^0.7.0",
     "dotenv": "^5.0.1",
     "json2csv": "^4.1.5",
+    "linebyline": "^1.3.0",
     "lodash": "^4.17.10",
     "lodash.uniqby": "^4.7.0",
     "mailgun.js": "^2.0.1",
@@ -30,12 +31,9 @@
   "homepage": "https://github.com/nudj/sds#readme",
   "scripts": {
     "orchestrate": "node ./lib/orchestrate.js",
-    "create-contacts": "node ./lib/create-contacts-csv.js",
-    "get-sample": "node ./lib/random-sample.js",
-    "update-email-status": "node ./lib/add-email-sent.js",
     "fetch-mailgun-logs": "node ./lib/fetch-mailgun-logs.js",
     "postman": "node ./lib/postman.js",
-    "inject-mailgun-logs": "node ./lib/inject-mailgun-logs.js",
-    "arango": "node ./lib/arango-test.js"
+    "arango": "node ./lib/arango-test.js",
+    "arango-import": "node ./lib/arango-import.js"
   }
 }

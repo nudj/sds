@@ -6,8 +6,6 @@ services:
       - NPM_TOKEN
     env_file: ../sds/.env
     volumes:
-      - ../sds:/usr/src
-      - ../data:/usr/src/data
+      - ./company-data:/usr/src/data
     stdin_open: true
     command: /bin/sh
-
