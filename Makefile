@@ -6,9 +6,11 @@ CWD=$(shell pwd)
 build:
 	@docker build -t $(IMAGE):development .
 
+up:
+	@docker-compose -p nudj \
+		-f ./docker-compose-sds.yml up \
+		-d --force-recreate --no-deps sds
+
 ssh:
-	@docker run -it --rm \
-		-v $(CWD)/lib:/usr/src/lib \
-		-v $(CWD)/input.json:/usr/src/input.json \
-		$(IMAGE):development \
-		/bin/sh
+	@docker-compose -p nudj \
+		-f ./docker-compose-sds.yml exec sds /bin/sh
