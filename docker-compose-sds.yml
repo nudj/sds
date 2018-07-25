@@ -1,0 +1,11 @@
+version: '2'
+services:
+  sds:
+    image: nudj/sds:latest
+    environment:
+      - NPM_TOKEN
+    env_file: ../sds/.env
+    volumes:
+      - ./company-data:/usr/src/data
+    stdin_open: true
+    command: /bin/sh

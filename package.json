@@ -5,6 +5,7 @@
   "author": "jgunson",
   "license": "MIT",
   "dependencies": {
+    "arangojs": "^6.4.0",
     "axios": "^0.17.1",
     "command-line-args": "^5.0.2",
     "csv-stringify": "^2.1.0",
@@ -29,10 +30,8 @@
   "homepage": "https://github.com/nudj/sds#readme",
   "scripts": {
     "orchestrate": "node ./lib/orchestrate.js",
-    "create-contacts": "node ./lib/create-contacts-csv.js",
-    "get-sample": "node ./lib/random-sample.js",
-    "update-email-status": "node ./lib/add-email-sent.js",
     "fetch-mailgun-logs": "node ./lib/fetch-mailgun-logs.js",
-    "postman": "node ./lib/postman.js"
+    "postman": "node ./lib/postman.js",
+    "seed-local-database": "node ./lib/seed-database.js"
   }
 }

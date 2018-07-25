@@ -1,0 +1,80 @@
+[
+  {
+    "geolocation": { "country": "US", "region": "CA", "city": "San Jose" },
+    "tags": [],
+    "ip": "50.206.91.15",
+    "log-level": "info",
+    "id": "gr0xoJZlTkmIOqgSvAc6hA",
+    "campaigns": [],
+    "user-variables": {},
+    "recipient-domain": "osh.com",
+    "timestamp": 1531956839.983924,
+    "client-info": {
+      "client-type": "browser",
+      "device-type": "desktop",
+      "client-name": "Chrome",
+      "user-agent":
+        "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36",
+      "client-os": "Windows"
+    },
+    "message": {
+      "headers": {
+        "message-id": "20180715141337.1.99922D53CAA2B5C0@mail.nudj.co"
+      }
+    },
+    "recipient": "rich@nudj.co",
+    "event": "opened"
+  },
+  {
+    "geolocation": { "country": "US", "region": "CA", "city": "San Jose" },
+    "tags": [],
+    "ip": "50.206.91.15",
+    "log-level": "info",
+    "id": "tim",
+    "campaigns": [],
+    "user-variables": {},
+    "recipient-domain": "osh.com",
+    "timestamp": 1531956839.983924,
+    "client-info": {
+      "client-type": "browser",
+      "device-type": "desktop",
+      "client-name": "Chrome",
+      "user-agent":
+        "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36",
+      "client-os": "Windows"
+    },
+    "message": {
+      "headers": {
+        "message-id": "20180715141337.1.99922D53CAA2B5C0@mail.nudj.co"
+      }
+    },
+    "recipient": "rich@nudj.co",
+    "event": "clicked"
+  },
+  {
+    "geolocation": { "country": "US", "region": "CA", "city": "San Jose" },
+    "tags": [],
+    "ip": "50.206.91.15",
+    "log-level": "info",
+    "id": "tim",
+    "campaigns": [],
+    "user-variables": {},
+    "recipient-domain": "osh.com",
+    "timestamp": 1531956839.983924,
+    "client-info": {
+      "client-type": "browser",
+      "device-type": "desktop",
+      "client-name": "Chrome",
+      "user-agent":
+        "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36",
+      "client-os": "Windows"
+    },
+    "message": {
+      "headers": {
+        "message-id": "20180715141337.1.83322F53CBA2B5C0@mail.nudj.co"
+      }
+    },
+    "recipient": "tim@nudj.co",
+    "event": "opened"
+  }
+]
