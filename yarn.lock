@@ -427,6 +427,10 @@ has-unicode@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/has-unicode/-/has-unicode-2.0.1.tgz#e0e6fe6a28cf51138855e086d1691e771de2a8b9"
 
+hash-generator@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/hash-generator/-/hash-generator-0.1.0.tgz#80e9daffce1a8ffa32e57c44590d233669d53898"
+
 hawk@3.1.3, hawk@~3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/hawk/-/hawk-3.1.3.tgz#078444bd7c1640b0fe540d2c9b73d59678e8e1c4"
@@ -568,10 +572,6 @@ libxmljs@0.19.0:
     bindings "~1.3.0"
     nan "~2.10.0"
     node-pre-gyp "~0.6.37"
-
-linebyline@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/linebyline/-/linebyline-1.3.0.tgz#6ef54ceab832d23f7841ed2f296fe9b2f6dade94"
 
 linkedlist@^1.0.1:
   version "1.0.1"
