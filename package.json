@@ -31,10 +31,8 @@
   },
   "homepage": "https://github.com/nudj/sds#readme",
   "scripts": {
-    "orchestrate": "node ./lib/orchestrate.js",
     "fetch-mailgun-logs": "node ./lib/fetch-mailgun-logs.js",
     "postman": "node ./lib/postman.js",
-    "seed-local-database": "node ./lib/seed-database.js",
     "blacklist": "node ./lib/update-blacklist",
     "enrich-companies": "node ./lib/enrich-companies.js"
   }
