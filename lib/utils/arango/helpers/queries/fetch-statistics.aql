@@ -113,13 +113,14 @@ FOR batchDate IN ATTRIBUTES(batches)
   LET percentageClicked = LEFT(((COUNT(clicks) / COUNT(delivered)) * 100), 5)
 
   RETURN {
-    date: fullDate,
-    sent: COUNT(sent),
-    delivered: COUNT(delivered),
-    undelivered: COUNT(sent) - COUNT(delivered),
-    totalOpens: COUNT(opens),
-    uniqueOpens: COUNT(uniqueOpens),
-    clicks: COUNT(clicks),
-    openRate: CONCAT(percentageOpened, "%"),
-    clickRate: CONCAT(percentageClicked, "%")
+    "Sample": @sample,
+    "Date": fullDate,
+    "Sent": COUNT(sent),
+    "Delivered": COUNT(delivered),
+    "Undelivered": COUNT(sent) - COUNT(delivered),
+    "Opens": COUNT(opens),
+    "Unique opens": COUNT(uniqueOpens),
+    "Clicks": COUNT(clicks),
+    "Open rate": CONCAT(percentageOpened, "%"),
+    "Click rate": CONCAT(percentageClicked, "%")
   }
