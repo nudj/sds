@@ -1,0 +1,7 @@
+// This is run in the production environment where pages viewed with hashes are logged
+// We query this collection with a list of hashes that we want information on, and
+// if the hash is returned it has been viewed.
+
+FOR event IN messageEvents
+  FILTER POSITION(@hashes, event.hash)
+  RETURN event.hash
