@@ -1,0 +1,17 @@
+// Run in the staging enviroment
+// This query is used to fetch a list of messageHashes by sample to start the process
+// of determining click count.
+
+LET mailgunIds = UNIQUE(
+  FLATTEN(
+    FOR company IN companies
+    FILTER company.sample == @sample
+
+    // Returns a flat array of mailgunIds
+    RETURN company.contacts[**].messages[**].mailgunId
+  )
+)
+
+FOR messageHash IN messageHashes
+  FILTER POSITION(mailgunIds, messageHash.mailgunId)
+  RETURN messageHash

@@ -1,0 +1,8 @@
+// Run in the staging environment.  By using a set of viewedHashes retrieved
+// from the production environment, we filter out the hashes that are relevant
+// (e.g., have been viewed) and use that to determine the mailgunIds of the
+// messages that have been clicked.
+
+FOR messageHash IN messageHashes
+  FILTER POSITION(@viewedHashes, messageHash.messageHash)
+  RETURN messageHash.mailgunId
