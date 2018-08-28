@@ -1,0 +1,44 @@
+// Run in the staging environment.
+// Fetches dates of each batch for a group of mailgunIds.
+
+// Fetch events related to the mailgunIds and format into usable form
+LET events = (
+  FOR log IN logs
+    // In rare cases it seems that some instant mailgun failures have no 'message.headers'.
+    FILTER log.message != null && log.message.headers != null
+
+    // Fetch only events that relate to one of the mailgunIds
+    FILTER POSITION(@mailgunIds, log.message.headers["message-id"])
+
+    // Return a calendar date and a more specific time
+    RETURN {
+      date: DATE_FORMAT(log.timestamp * 1000, "%dd/%mm/%yy"),
+      fullDate: DATE_FORMAT(log.timestamp*1000, "%dd/%mm/%yy - %wwww - %hh:%ii"),
+      type: log.event
+    }
+)
+
+// These are the dates that emails were sent, used to relate events to a batch
+LET dates = (
+  // Using COLLECT or DISTINCT mutates the original, rendering the original form
+  // inaccessible later, so we declare a `duplicateEvents` object to work with
+  LET duplicateEvents = events
+  FOR event IN duplicateEvents
+    FILTER event.type == "accepted" // Denotes a mailgun batch triggered
+    RETURN DISTINCT event.date
+)
+
+// These are the exact timestamps of the campaign, used for human-readability
+FOR date IN dates
+  RETURN {
+    calendarDate: date,
+    fullDate: FIRST(
+      FOR event IN events
+        FILTER event.date == date
+        SORT event ASC // Order by earliest to latest
+        LIMIT 1 // Fetch only the earliest (ie. start time of the batch)
+
+        // Return a date formatted to have date, weekday and time
+        RETURN event.fullDate
+    )
+  }
