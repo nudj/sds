@@ -25,6 +25,8 @@ LET dates = (
   LET duplicateEvents = events
   FOR event IN duplicateEvents
     FILTER event.type == "accepted" // Denotes a mailgun batch triggered
+    // If a date has been specified, filter by that.
+    FILTER @specifiedDate ? event.date == @specifiedDate : event.date
     RETURN DISTINCT event.date
 )
 
